@@ -7,7 +7,7 @@ let started = false;
 let level = 0;
 console.log(gamePattern);
 
-$(document).keypress(function () {
+$(document).click(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
